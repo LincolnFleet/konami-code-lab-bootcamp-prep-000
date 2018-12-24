@@ -22,9 +22,6 @@ function init() {
         alert("Code Successfully Entered");
         return index=0;
       }
-      console.log(`input ${input}`);
-      console.log(`correctInput ${correctInput}`);
-      console.log(`index ${index}`);
     }
     else {
       index=0;
