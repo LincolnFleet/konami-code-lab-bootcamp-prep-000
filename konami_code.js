@@ -21,7 +21,7 @@ function init() {
       alert("Code Successfully Entered");
       return index=0;
     }
-    else if (input.toString()===correctInput) {
+    else if (input===correctInput) {
       index++;
     }
     else {
