@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  var index=0;
+  var index=1;
   document.body.addEventListener('keydown', event => {
     const correctInput=codes[index];
     const input=event.key;
@@ -27,7 +27,7 @@ function init() {
       return index=0;
     }
     else {
-      index=0
+      index=1
     }
   })
 }
