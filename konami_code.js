@@ -19,7 +19,7 @@ function init() {
       console.log(`input ${input}`)
       console.log(`correctInput ${correctInput}`)
       console.log(`index ${index}`)
-    if (input.toString()===correctInput.toString()) {
+    if (input===correctInput) {
       index++;
     }
     else if (index===codes.length-1) {
