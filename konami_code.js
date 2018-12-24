@@ -18,13 +18,13 @@ function init() {
     const input=event.key;
     if (input===correctInput) {
       index++;
+      if (index===codes.length){
+        alert("Code Successfully Entered");
+        return index=0;
+      }
       console.log(`input ${input}`);
       console.log(`correctInput ${correctInput}`);
       console.log(`index ${index}`);
-    }
-    else if (index===codes.length) {
-      alert("Code Successfully Entered");
-      return index=0;
     }
     else {
       index=0;
