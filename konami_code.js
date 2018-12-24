@@ -19,7 +19,7 @@ function init() {
       //console.log(`this is the event key ${input}`)
     if (index===codes.length) {
       alert("Code Successfully Entered");
-      return index=0
+      return index=0;
     }
     else if (input!=correctInput) {
       index=0;
