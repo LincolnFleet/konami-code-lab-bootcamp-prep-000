@@ -22,7 +22,7 @@ function init() {
     if (input.toString()===correctInput.toString()) {
       index++;
     }
-    else if (index===codes.length {
+    else if (index===codes.length) {
       alert("Code Successfully Entered");
       return index=0;
     }
