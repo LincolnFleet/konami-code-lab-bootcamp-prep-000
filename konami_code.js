@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   var index=0;
-  document.body.addEventListener('KeyDown', event => {
+  document.body.addEventListener('keydown', event => {
     const correctInput=codes[index];
     const input=event.key;
       console.log(`this is the event key ${input}`);
