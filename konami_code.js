@@ -12,7 +12,7 @@ const codes = [
 ];
 
 function init() {
-  var index=1;
+  var index=0;
   document.body.addEventListener('keydown', event => {
     const correctInput=codes[index];
     const input=event.key;
@@ -22,12 +22,12 @@ function init() {
     if (input.toString()===correctInput.toString()) {
       index++;
     }
-    else if (index===codes.length) {
+    else if (index===codes.length-1) {
       alert("Code Successfully Entered");
-      return index=1;
+      return index=0;
     }
     else {
-      index=1
+      index=0;
     }
   })
 }
