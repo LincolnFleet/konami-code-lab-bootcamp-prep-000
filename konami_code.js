@@ -14,8 +14,8 @@ const codes = [
 function init() {
   var index=0;
   document.body.addEventListener('keydown', event => {
-    const correctInput=codes[index].toString();
-    const input=event.key.toString();
+    const correctInput=codes[index];
+    const input=event.key;
       console.log(`input ${input}`)
       console.log(`correctInput ${correctInput}`)
       console.log(`index ${index}`)
@@ -23,7 +23,7 @@ function init() {
       alert("Code Successfully Entered");
       return index=0;
     }
-    else if (input===correctInput) {
+    else if (input.toString()===correctInput.toString()) {
       index++;
     }
     else {
