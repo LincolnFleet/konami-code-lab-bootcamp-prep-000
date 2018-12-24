@@ -18,6 +18,9 @@ function init() {
     const input=event.key;
     if (input===correctInput) {
       index++;
+      console.log(`input ${input}`);
+      console.log(`correctInput ${correctInput}`)
+      console.log(`index ${index}`)
     }
     else if (index===codes.length-1) {
       alert("Code Successfully Entered");
