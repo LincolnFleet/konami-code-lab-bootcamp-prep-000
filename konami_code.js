@@ -16,9 +16,6 @@ function init() {
   document.body.addEventListener('keydown', event => {
     const correctInput=codes[index];
     const input=event.key;
-      console.log(`input ${input}`)
-      console.log(`correctInput ${correctInput}`)
-      console.log(`index ${index}`)
     if (input===correctInput) {
       index++;
     }
