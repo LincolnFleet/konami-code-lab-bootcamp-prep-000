@@ -22,7 +22,7 @@ function init() {
       console.log(`correctInput ${correctInput}`);
       console.log(`index ${index}`);
     }
-    else if (index===codes.length-1) {
+    else if (index===codes.length) {
       alert("Code Successfully Entered");
       return index=0;
     }
