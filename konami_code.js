@@ -24,7 +24,7 @@ function init() {
     }
     else if (index===codes.length) {
       alert("Code Successfully Entered");
-      return index=0;
+      return index=1;
     }
     else {
       index=1
